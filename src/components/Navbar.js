@@ -16,7 +16,11 @@ function Navbar({ setIsLoggedIn }) {
   function handleLogout() {
     setIsLoggedIn(false);
     history.push("/login");
+
+    
   }
+
+ 
 
   return (
     <div>
